@@ -23,7 +23,7 @@ To set the operating costs and profit margin for your node, run the following co
 ### Explanation of Parameters:
 
 * `--mnemonic` : Your account’s mnemonic phrase, used for authentication.
-* `--interval-operating-cost` : Defines the operating cost per interval (in this case, 400 Nym).
+* `--interval-operating-cost` : Defines the operating cost per interval (in this case, 800 Nym).
 * `--profit-margin-percent` : Sets the profit margin percentage (in this example, 20%).
 
 
@@ -32,6 +32,6 @@ To set the operating costs and profit margin for your node, run the following co
 If you prefer to execute the command in a single line, you can use the following syntax:
 
 ```bash
-nym-cli mixnet operators nymnode settings update-cost-parameters --mnemonic "" --profit-margin-percent 20 --interval-operating-cost 400000000
+nym-cli mixnet operators nymnode settings update-cost-parameters --mnemonic "" --profit-margin-percent 20 --interval-operating-cost 800000000
 ```
 
