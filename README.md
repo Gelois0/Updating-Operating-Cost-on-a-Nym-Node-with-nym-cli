@@ -10,6 +10,12 @@ To begin, download the `nym-cli` tool from the official Nym repository by runnin
 wget https://github.com/nymtech/nym/releases/download/nym-binaries-v2025.5-chokito/nym-cli
 ```
 
+Then, grant execution permissions to the downloaded file
+
+```bash
+chmod +x nym-cli
+```
+
 ## Step 2: Update Cost Parameters
 
 To set the operating costs and profit margin for your node, run the following command, replacing `"word word word ..."` with your mnemonic phrase:
