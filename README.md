@@ -20,16 +20,14 @@ To set the operating costs and profit margin for your node, run the following co
   --interval-operating-cost 800000000 \
   --profit-margin-percent 20
 ```
-
 ### Explanation of Parameters:
-- `--mnemonic` : Your account’s mnemonic phrase, used for authentication.
-- `--interval-operatin## Conclusion
 
-Configuring cost parameters on your Nym node is a crucial step in ensuring the economic viability of your operation. Thanks to `nym-cli`, this task can be performed quickly and efficiently.
+* `--mnemonic` : Your account’s mnemonic phrase, used for authentication.
+* `--interval-operating-cost` : Defines the operating cost per interval (in this case, 400 Nym).
+* `--profit-margin-percent` : Sets the profit margin percentage (in this example, 20%).
 
-For more information, refer to the official Nym documentation or engage with the community.
-g-cost` : Defines the operating cost per interval (in this case, 400 Nym).
-- `--profit-margin-percent` : Sets the profit margin percentage (in this example, 20%).
+
+
 
 If you prefer to execute the command in a single line, you can use the following syntax:
 
