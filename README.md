@@ -17,7 +17,7 @@ To set the operating costs and profit margin for your node, run the following co
 ```bash
 ./nym-cli mixnet operators nymnode settings update-cost-parameters \
   --mnemonic "word word word ..." \
-  --interval-operating-cost 400000000 \
+  --interval-operating-cost 800000000 \
   --profit-margin-percent 20
 ```
 
